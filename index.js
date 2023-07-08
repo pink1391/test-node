@@ -8,7 +8,7 @@ app.get('/', (req,res)=>{
 })
 
 app.get('/student',(req,res)=>{
-    res.send("This is student");
+    res.send("This is student after docker update");
 })
 
 app.get('/test',(req,res)=>{
