@@ -11,6 +11,10 @@ app.get('/student',(req,res)=>{
     res.send("This is student");
 })
 
+app.get('/test',(req,res)=>{
+    res.send("This is test");
+})
+
 app.get('/employee',(req,res)=>{
     res.send("This is employee.");
 })
