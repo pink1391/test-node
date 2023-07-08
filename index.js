@@ -8,7 +8,7 @@ app.get('/', (req,res)=>{
 })
 
 app.get('/student',(req,res)=>{
-    res.send("This is student khittu pagla12");
+    res.send("This is student khittu pagla132");
 })
 
 app.get('/test',(req,res)=>{
